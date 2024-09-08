@@ -1,0 +1,81 @@
+.todoItem {
+    list-style: none;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .todoText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #bbb;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actionButton {
+    padding: 5px 10px;
+    background-color: peru;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 500;
+  }
+  
+  .actionButton:hover {
+    background-color: peru;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px ghostwhite;
+  }
+  
+  .editContainer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .editInput {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .saveButton {
+    background-color: peru;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .saveButton:hover {
+    background-color: peru;
+    box-shadow: 1px 1px 2px gray;
+    border: 1px solid black;
+  }
+  
+  .todoList {
+    padding: 0;
+    margin: 0;
+  }
+  
